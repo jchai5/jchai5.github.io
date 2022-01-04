@@ -9,6 +9,7 @@
     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
+               
     <!--===== HEADER =====-->
     <header class="l-header">
         <nav class="nav">
@@ -97,14 +98,61 @@
 
             <div class="work__container">
                 <div class="work__img">
-                    <img src="https://media.giphy.com/media/gizZvICXsQn2g6JajG/source.gif" alt="">
+                    <img id="myBtn" src="./assets/img/paint_project_icon.png" alt="">
                 </div>
+
+                 <!-- The Modal -->
+                 <div id="myModal" class="modal">
+                     <!-- Modal content -->
+                     <div class="modal-content">
+                        <span class="close"></span>
+                        <div class="left_text">
+                            <h2>Sketch Program</h2>
+                            <p>A simple version of a sketching program, inspired by Microsoft Paint.</p>
+                            <p>The program is entirely written in Python using Pygame library. This project
+                                is beginner level that serves as an introduction to the Pygame library and creating a GUI 
+                                where the user can interact.
+                            </p>
+                            <p2>Check it out here at <a href="https://github.com/jchai5/paint_project" class="">Github</a>! </p2>
+                            <h2>Tools Used</h2>
+                            <ul>Python</ul>
+                            <h2>Difficulty</h2>
+                            <img src="./assets/img/stars/2star.png" alt="">
+                        </div>
+                        <div class="right_gif">
+                            <img src="./assets/img/ezgif-2-8ff07ef31f.gif" alt="">
+                        </div>
+                     </div>
+                 </div>
+    
+            </div>
+            <div class="work__container">
                 <div class="work__img">
-                    <img src="https://media.giphy.com/media/gizZvICXsQn2g6JajG/source.gif" alt="">
+                    <img id="myBtn2" src="https://media.giphy.com/media/gizZvICXsQn2g6JajG/source.gif" alt="">
                 </div>
+                <!-- The Modal -->
+                <!-- <div id="myModal2" class="modal">
+                    <div class="modal-content">
+                       <span class="close2"></span>
+                       <div class="left_text">
+                           <h2>Sketch Program</h2>
+                           <p2>Check it out here at <a href="https://github.com/jchai5/paint_project" class="">Github</a>! </p2>
+                           <h2>Tools Used</h2>
+                           <ul>Python</ul>
+                       </div>
+                       <div class="right_gif">
+                           <img src="https://media.giphy.com/media/iHD88spVFkL7mZakwa/giphy.gif" alt="">
+                       </div>
+                    </div>
+                </div> -->
+
+            </div>
+            <div class="work__container">
                 <div class="work__img">
-                    <img src="https://media.giphy.com/media/gizZvICXsQn2g6JajG/source.gif" alt="">
-                
+                    <img id="myBtn3"src="https://media.giphy.com/media/gizZvICXsQn2g6JajG/source.gif" alt="">
+                </div>
+
+
             </div>
         </section>
 
@@ -113,8 +161,7 @@
             <h2 class="section-title">Contact</h2>
 
             <div class="contact__container">
-                <!--random-like string is receiver's email-->
-                <form action="https://formsubmit.co/c624cbea48b68fc5f0cec9f331ccf43b" method="POST" class="contact__form">
+                <form action="https://formsubmit.co/jonathan_chai90@hotmail.com" method="POST" class="contact__form">
                     <input type="text" name="name" placeholder="Name" class="contact__input" required>
                     <input type="email" name="email" placeholder="Email" class="contact__input" required>
                     <input type="text" name="message" placeholder="Message" cols="0" rows="10" class="contact__input" required></input>
@@ -148,5 +195,63 @@
             loop: true
         });
     </script>
+
+    <!-- FOR MODALS -->
+    <!-- SKETCH PROGRAM -->
+    <script>
+        var modal = document.getElementById("myModal");
+        var btn = document.getElementById("myBtn");
+        var span = document.getElementsByClassName("close")[0];
+        btn.onclick = function() {
+        modal.style.display = "block";
+        }
+        span.onclick = function() {
+        modal.style.display = "none";
+        }
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+
+    <!-- COMING SOON -->
+    <!-- <script>
+        var modal2 = document.getElementById("myModal2");
+        var btn2 = document.getElementById("myBtn2");
+        var span2 = document.getElementsByClassName("close2")[0];
+        btn2.onclick = function() {
+        modal2.style.display = "block";
+        }
+        span2.onclick = function() {
+        modal2.style.display = "none";
+        }
+        window.onclick = function(event2) {
+            if (event2.target == modal2) {
+                modal2.style.display = "none";
+            }
+        }
+    </script> -->
+
+    <!-- COMING SOON -->
+    <!-- <script>
+        var modal3 = document.getElementById("myModal3");
+        var btn3 = document.getElementById("myBtn3");
+        var span3 = document.getElementsByClassName("close3")[0];
+        btn3.onclick = function() {
+        modal3.style.display = "block";
+        }
+        span3.onclick = function() {
+        modal3.style.display = "none";
+        }
+        window.onclick = function(event3) {
+            if (event3.target == modal3) {
+                modal3.style.display = "none";
+            }
+        }
+    </script> -->
+
+
+
 </body>
 </html>

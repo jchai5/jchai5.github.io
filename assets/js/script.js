@@ -1,3 +1,5 @@
+
+
 // show the menu
 const showMenu = (toggleId, navId) =>{
     const toggle = document.getElementById(toggleId),
@@ -57,3 +59,8 @@ sr.reveal('.work__img',{interval: 200});
 // contact scroll
 sr.reveal('.contact__input',{interval: 200}); 
 sr.reveal('.contact__button',{interval: 200}); 
+
+
+
+
+
