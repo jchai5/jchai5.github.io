@@ -380,6 +380,7 @@ img {
 .modal-content {
   background-color: #fff;
   padding: 20px;
+  margin: 10px;
 
 }
 /* The Close Button */
@@ -524,7 +525,7 @@ img {
   .modal-content {
     position: absolute;
     top: 30vh;
-    left: 10vw;
+    left: 5vw;
     background-color: white;
     margin: auto;
     padding: 20px;
