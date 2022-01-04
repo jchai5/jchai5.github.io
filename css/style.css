@@ -378,31 +378,9 @@ img {
 
 /* Modal Content */
 .modal-content {
-  position: absolute;
-  top: 30vh;
-  left: 10vw;
-  background-color: white;
-  margin: auto;
+  background-color: #fff;
   padding: 20px;
-  border: 1px solid #888;
-  display:flex;
-}
-.left_text {
-  background-color: white;
-  width: 40vw;
-  margin: 20px;
-}
-.left_text p{
-  margin-bottom: 10px;
-}
-.left_text a{
-  font-weight: bold;
-}
-.left_text h2{
-  margin-top: 20px;
-}
-.right_gif {
-  width: 40vw;
+
 }
 /* The Close Button */
 .close {
@@ -541,6 +519,34 @@ img {
   }
   .contact__container {
     justify-items: center;
+  }
+
+  .modal-content {
+    position: absolute;
+    top: 30vh;
+    left: 10vw;
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    display:flex;
+  }
+  .left_text {
+    background-color: white;
+    width: 40vw;
+    margin: 20px;
+  }
+  .left_text p{
+    margin-bottom: 10px;
+  }
+  .left_text a{
+    font-weight: bold;
+  }
+  .left_text h2{
+    margin-top: 20px;
+  }
+  .right_gif {
+    width: 40vw;
   }
 }
 /*# sourceMappingURL=style.css.map */
