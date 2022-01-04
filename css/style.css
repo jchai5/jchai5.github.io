@@ -155,7 +155,7 @@ img {
 }
 
 .home {
-  height: 100vh;
+  height: 50vh;
   row-gap: 1rem;
   background: url("https://media.giphy.com/media/BHNfhgU63qrks/source.gif") no-repeat center center fixed;
   background-size: cover;
